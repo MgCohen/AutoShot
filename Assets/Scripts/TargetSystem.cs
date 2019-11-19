@@ -53,7 +53,8 @@ public class TargetSystem
                 var playerPos = Player.instance.transform.position;
                 var playerDist = (playerPos - hit.transform.position).magnitude;
                 var pLos = !Physics2D.Raycast(playerPos, hit.transform.position - playerPos, playerDist, localMask);
-                if(tryDistance < distance && pLos)
+                var playerDistance = (hit.transform.position - Player.instance.transform.position).magnitude;
+                if (tryDistance < distance && pLos && playerDist < Player.instance.gun.weapon.maxRange * 1.25f)
                 {
                     target = hit.gameObject;
                     distance = tryDistance;

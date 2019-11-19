@@ -115,6 +115,14 @@ public class WormAI : MonoBehaviour
             rb.velocity = Vector2.zero;
             return;
         }
+        float count = 0;
+        Vector3 lastP = Vector3.zero;
+        foreach(var p in path.vectorPath)
+        {
+            count += (p - lastP).magnitude;
+            lastP = p;
+        }
+        Debug.Log(count);
         reachedEnd = (currentWaypoint >= path.vectorPath.Count) ? true : false;
         if (reachedEnd) return;
 

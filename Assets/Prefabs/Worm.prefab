@@ -245,9 +245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 1000
-  nextWaypointDistance: 0.75
-  stalkRange: 10
+  speed: 1500
+  nextWaypointDistance: 0.3
+  stalkRange: 6.5
   seeker: {fileID: 243991593883815118}
   rb: {fileID: 2062888090}
   enemy: {fileID: 7563437782510194410}

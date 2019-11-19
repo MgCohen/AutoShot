@@ -27,7 +27,7 @@ public class Aim : MonoBehaviour
     public void Set()
     {
         transform.localScale = Vector3.zero;
-        transform.DOScale(1, 2f).SetEase(Ease.OutBack);
+        transform.DOScale(1, 0.5f).SetEase(Ease.OutBack);
         transform.DORotate(new Vector3(0, 0, 360), 0.5f, RotateMode.FastBeyond360).SetEase(Ease.Linear);
     }
 

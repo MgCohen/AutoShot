@@ -394,7 +394,7 @@ MonoBehaviour:
   energy: {fileID: 0}
   coll: {fileID: 5024878488453666091}
   energyRecover: 20
-  moveSpeed: 2
+  moveSpeed: 1.25
   dashSpeed: 4
   dashCost: 40
   Health: 3
