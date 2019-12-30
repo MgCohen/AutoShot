@@ -26,7 +26,6 @@ public class Selector : MonoBehaviour
         var hits = Physics2D.OverlapCircleAll(point, radius, localMask);
         GameObject target = null;
         float distance = 999f;
-        Debug.Log(hits.Length);
         foreach (var hit in hits)
         {
             var targettable = hit.GetComponent<ITarget>();

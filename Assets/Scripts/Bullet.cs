@@ -38,6 +38,10 @@ public class Bullet : MonoBehaviour
         {
             collision.transform.GetComponent<Enemy>().TakeDamage(damage);
         }
+        else if (collision.transform.GetComponent<Player>())
+        {
+            Player.instance.TakeDamage(transform.position, damage);
+        }
         Kill();
     }
 }

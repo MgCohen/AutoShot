@@ -20,7 +20,8 @@ public class Aim : MonoBehaviour
     {
         if(target != null)
         {
-            transform.position = target.position;
+            var bound = target.GetBounds();
+            transform.position = bound.center;
         }
     }
 

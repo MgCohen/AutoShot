@@ -28,10 +28,13 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public float dashSpeed;
     public float dashCost;
+    public float invunerableTime;
 
     public int Health;
 
     public bool ready = true;
+    public bool locked = false;
+    public bool invunerable = false;
 
     private Vector2 dashVelocity = new Vector2();
     private Vector2 walkVelocity = new Vector2();
@@ -47,7 +50,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (!ready)
+        if (!ready || locked)
         {
             return;
         }
@@ -61,12 +64,12 @@ public class Player : MonoBehaviour
         else
         {
             walkVelocity = Vector2.zero;
+            float rot = (sprite.flipX) ? 180 : 0;
+            gun.transform.rotation = Quaternion.Euler(new Vector3(0, 0, rot));
         }
-
         body.velocity = walkVelocity + dashVelocity;
         anim.SetBool("Moving", (body.velocity.magnitude > 0.35f));
     }
-
 
     public void LookAt(Vector3 pos)
     {
@@ -136,31 +139,50 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (invunerable)
+        {
+            return;
+        }
         if (collision.gameObject.GetComponent<Enemy>())
         {
             var point = collision.GetContact(0).point;
-            var direction = (transform.position - (Vector3)point).normalized;
-            ready = false;
-            anim.SetTrigger("Hit");
-            coll.enabled = false;
-            Health -= 1;
-            body.velocity = Vector2.zero;
-            if (dashTween != null)
-            {
-                dashTween.Kill(true);
-            }
-            body.DOKill();
-            body.DOMove(transform.position + direction, 0.15f).SetEase(Ease.Linear).OnComplete(() =>
-            {
-                coll.enabled = true;
-                ready = true;
-                if (Health <= 0)
-                {
-                    Manager.instance.LoseEvent.Raise();
-                    gameObject.SetActive(false);
-                }
-            });
+            TakeDamage(point);
         }
+    }
+
+    public void Invunerable()
+    {
+        invunerable = true;
+        InstancedAction.DelayAction(() =>
+        {
+            invunerable = false;
+        }, invunerableTime);
+    }
+
+    public void TakeDamage(Vector2 sourcePoint, int amount = 1)
+    {
+        var direction = (transform.position - (Vector3)sourcePoint).normalized;
+        ready = false;
+        anim.SetTrigger("Hit");
+        Invunerable();
+        Health -= amount;
+        body.velocity = Vector2.zero;
+        if (dashTween != null)
+        {
+            dashTween.Kill(true);
+        }
+        body.DOKill();
+
+        body.AddForce(direction * dashSpeed * 350, ForceMode2D.Force);
+        InstancedAction.DelayAction(() =>
+        {
+            ready = true;
+            if (Health <= 0)
+            {
+                Manager.instance.LoseEvent.Raise();
+                gameObject.SetActive(false);
+            }
+        }, 0.25f);
     }
 
     private void OnDrawGizmos()

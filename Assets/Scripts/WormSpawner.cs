@@ -22,7 +22,7 @@ public class WormSpawner : MonoBehaviour
         var point = CameraFrame.RandomPoint();
         int counter = 0;
         LayerMask mask = LayerMask.GetMask("Props", "Enemy", "Player");
-        while(Physics2D.OverlapCircle(point, 1f, mask))
+        while(Physics2D.OverlapCircle(point, 2f, mask))
         {
             counter++;
             if (counter > 500)

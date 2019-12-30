@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 1826088336049459092}
   - component: {fileID: 2062888090}
   - component: {fileID: 2062888096}
+  - component: {fileID: 2424964246124371896}
   m_Layer: 10
   m_Name: Worm
   m_TagString: Untagged
@@ -150,12 +151,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624233735f94cb446ba6664d52698059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 8
+  immune: 0
+  health: 12
   Endurance: 1
   dead: 0
   hurt: 0
   anim: {fileID: 1435105539682883407}
   coll: {fileID: 1826088336049459092}
+  rb: {fileID: 2062888090}
+  win: {fileID: 11400000, guid: 22aa0dff4925cbc42aa2d22ed78526f9, type: 2}
 --- !u!210 &3094084172203619872
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -244,12 +248,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efc035de7b14bed488742e6c8348e60c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 1500
-  nextWaypointDistance: 0.3
-  stalkRange: 6.5
-  seeker: {fileID: 243991593883815118}
-  rb: {fileID: 2062888090}
   enemy: {fileID: 7563437782510194410}
   sprite: {fileID: 7750865785946098855}
+  stalkRange: 10
   behaviour: 0
+  path: {fileID: 2424964246124371896}
+--- !u!114 &2424964246124371896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7144110772528123158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326d736d10bcaa24da9c01aa5994559b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopped: 0
+  target: {x: 0, y: 0}
+  targetDistance: 0
+  speed: 200
+  nextWaypointDistance: 0.2
+  currentVelocity: {x: 0, y: 0}
+  reachedEnd: 1
+  seeker: {fileID: 243991593883815118}
+  rb: {fileID: 2062888090}

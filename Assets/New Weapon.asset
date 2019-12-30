@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604286cd3df8484c94712ecd239ef95, type: 3}
   m_Name: New Weapon
   m_EditorClassIdentifier: 
-  maxRange: 8
-  minRange: 3
+  maxRange: 7
+  minRange: 1.6
   accuracy: 5
   fireRate: 7
   bullet: {fileID: 4911793816510210602, guid: 3ba5e9904cd50544e94abf4e3e19d603, type: 3}

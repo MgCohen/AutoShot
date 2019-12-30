@@ -20,7 +20,7 @@ public class Gun : MonoBehaviour
     }
     private void Update()
     {
-        if (!player.ready)
+        if (!player.ready || player.locked)
         {
             return;
         }

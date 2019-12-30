@@ -367,13 +367,13 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 10
-  m_LinearDrag: 2
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &4211431775792665694
 MonoBehaviour:
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8048080102636697535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fb396e5c8d1aab4f8dc1157bfb4c487, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b518a31f35c5794a93ad2f687e7fd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 1613678362134603959}
@@ -393,12 +393,15 @@ MonoBehaviour:
   body: {fileID: 4901842131042990199}
   energy: {fileID: 0}
   coll: {fileID: 5024878488453666091}
-  energyRecover: 20
-  moveSpeed: 1.25
+  energyRecover: 25
+  moveSpeed: 1.5
   dashSpeed: 4
-  dashCost: 40
+  dashCost: 35
+  invunerableTime: 1
   Health: 3
   ready: 1
+  locked: 0
+  invunerable: 0
 --- !u!210 &1028795365
 SortingGroup:
   m_ObjectHideFlags: 0

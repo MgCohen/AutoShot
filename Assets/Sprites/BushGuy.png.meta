@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 6965b9a9c69aa1742bbb9a3e356ee4d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4253029401067606559
+    second: Up
+  - first:
+      213: 6662310419086466261
+    second: bush 0
+  - first:
+      213: 1505241985422678144
+    second: BushGuy_2
+  - first:
+      213: -8326131730773886498
+    second: Warning 3
+  - first:
+      213: 1724477693511467106
+    second: bush 1
+  - first:
+      213: -8008283159355916600
+    second: Warning 0
+  - first:
+      213: 6447309389302211790
+    second: Idle 0
+  - first:
+      213: -5319423200584375562
+    second: bush 2
+  - first:
+      213: -9217039764094678607
+    second: Idle 1
+  - first:
+      213: -9049329326073271048
+    second: Idle 2
+  - first:
+      213: -2213779565476403461
+    second: Idle 3
+  - first:
+      213: -358435236810343998
+    second: Idle 4
+  - first:
+      213: 4688049884173561275
+    second: Walk 0
+  - first:
+      213: -6475192222305087496
+    second: Walk 1
+  - first:
+      213: 7413562434916515683
+    second: Walk 2
+  - first:
+      213: -7259467143461478816
+    second: Walk 3
+  - first:
+      213: -6832050868104726135
+    second: BushGuy_16
+  - first:
+      213: -2043232951113595573
+    second: Warning 1
+  - first:
+      213: -7430677946536621035
+    second: bush 3
+  - first:
+      213: -8926688450124611146
+    second: Warning 2
+  - first:
+      213: -4252307403418837584
+    second: bush 4
+  - first:
+      213: 2776696423283604534
+    second: Dead
+  - first:
+      213: -8048695758072230726
+    second: bush 5
+  - first:
+      213: -484656936090758083
+    second: Dead 1
+  - first:
+      213: -7976774844031925798
+    second: BushGuy_24
+  - first:
+      213: -9080979566840627896
+    second: bush 6
+  - first:
+      213: -2875542121095411228
+    second: BushGuy_26
+  - first:
+      213: 185761495795969036
+    second: bush 7
+  - first:
+      213: 6702659201660488801
+    second: Dead 2
+  - first:
+      213: 5929098009773624072
+    second: BushGuy_29
+  - first:
+      213: -5708579329140056420
+    second: Bush
+  - first:
+      213: 8281742687546834381
+    second: Warning 5
+  - first:
+      213: 180453597316741593
+    second: Warning 4
+  - first:
+      213: -1893767412586900106
+    second: BushGuy_33
+  - first:
+      213: -4604276389418855869
+    second: BushGuy_34
+  - first:
+      213: 5754999457849175205
+    second: BushGuy_35
+  - first:
+      213: 8719855850625302719
+    second: BushGuy_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Up
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 329
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9827f392af3fe13409507f0bc451e0b7
+      internalID: 4253029401067606559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 0
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 343
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bd8333afaf964098e189b75796e91
+      internalID: 6662310419086466261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 332
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fc050ea2104db4ba5a0e37ff136abc
+      internalID: 1505241985422678144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning 3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 292
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04045dc96391900419eb10514f960a1d
+      internalID: -8326131730773886498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 307
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549417fbd2ebe04baf04a27967fb310
+      internalID: 1724477693511467106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning 0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 256
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45e8f845ef70bc42a93962bbf7ccf1d
+      internalID: -8008283159355916600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34a6f2c8a9647e43bf8dd951573c5d4
+      internalID: 6447309389302211790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 271
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a82b130a2bedc546b7637fc73768f3e
+      internalID: -5319423200584375562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3285e9093ff23374b8928781c8196b32
+      internalID: -9217039764094678607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701903bbe3b8bee41a8748677620de98
+      internalID: -9049329326073271048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35fa41d3e9d3ef439142bed714030ef
+      internalID: -2213779565476403461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf04ddaad6cda42897cb799343cea5
+      internalID: -358435236810343998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk 0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c1933c1b264f047927c6b4171244b2
+      internalID: 4688049884173561275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk 1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 243
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ef18c5da6256a419201bd9592bb987
+      internalID: -6475192222305087496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk 2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc41edb6d5b0742bff1f275330c1ab
+      internalID: 7413562434916515683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk 3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 242
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab9a57e036cd7b4b9cb938ab5a0409d
+      internalID: -7259467143461478816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_16
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 255
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f546725fe96e65b41bbaf385cfe549d3
+      internalID: -6832050868104726135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning 1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 220
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07809f8b1d4ed13439fb8d69a9c677e4
+      internalID: -2043232951113595573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 235
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a864b5250aea8046ac2482998467dfa
+      internalID: -7430677946536621035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning 2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 184
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75c2820216df3240beb5333084176ce
+      internalID: -8926688450124611146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 199
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a730b0f40891f4ba655390f0ea5d4d
+      internalID: -4252307403418837584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 147
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e050fa923106640a7c0ea2721a2159
+      internalID: 2776696423283604534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 5
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 163
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653bdb47213d00540b0cdfa26450502c
+      internalID: -8048695758072230726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead 1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 111
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2501fcced48834eaeed9bc25c1c153
+      internalID: -484656936090758083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 114
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8478b1be809d13d47a942025b7211a06
+      internalID: -7976774844031925798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 127
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484970b4ac424e04bae632e98f846278
+      internalID: -9080979566840627896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_26
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 53
+        width: 12
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0165a9c179a2144a13f7ea010d81f2
+      internalID: -2875542121095411228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush 7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 91
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ec712fdba0dc4f94842fdc3e42550
+      internalID: 185761495795969036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead 2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 75
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a866a8cdf0be94cb279ff9a071e045
+      internalID: 6702659201660488801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 21
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5cd985f2b8aa4d97cec20ed3b4d41
+      internalID: 5929098009773624072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 56
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ad6f0a08ac984ab1a64953f2e902a
+      internalID: -5708579329140056420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning 5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 56
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37f4ffc1613a0648888834cb936a9c3
+      internalID: 8281742687546834381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warning 4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 52
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d5e8a03eb74c5408ccbccc9f006520
+      internalID: 180453597316741593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_33
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 52
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b943f79b812c5349809e47bf617f98c
+      internalID: -1893767412586900106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_34
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 37
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9915a7b64b9ae47a42d1c057a3f4ff
+      internalID: -4604276389418855869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 21
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db86c1b5a0757be48a58a5249343bff6
+      internalID: 5754999457849175205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushGuy_36
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 4
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e856275aa20314c94113a0df372274
+      internalID: 8719855850625302719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
