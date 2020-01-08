@@ -6,12 +6,22 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Weapon", menuName = "Weapon")]
 public class Weapon : ScriptableObject
 {
-    public float maxRange;
-    public float minRange;
-    public float accuracy;
-    public float fireRate;
+    public FloatVariable maxRange;
+    public FloatVariable minRange;
+    public FloatVariable accuracy;
+    public FloatVariable fireRate;
+
+    public IntVariable magazineSize;
+    public IntVariable bulletsPerShot;
+
+    public FloatVariable reloadTime;
+
+    public BoolVariable autoShot;
+    public BoolVariable ammoPerShot;
+
     public GameObject bullet;
     public GameObject muzzle;
+
 
     public Sprite weaponSprite;
     public Sprite AimSprite;

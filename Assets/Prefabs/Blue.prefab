@@ -266,6 +266,6 @@ MonoBehaviour:
   chaseRange: 13.29
   idleRange: 5
   idling: 0
-  shotCd: 4
+  shotCd: 3
   bullet: {fileID: 3464623376065657290, guid: 4acb5df1b395c6148add9b008e04ccf1, type: 3}
   bulletPoint: {fileID: 9206742095742614189}

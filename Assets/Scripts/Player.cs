@@ -24,10 +24,10 @@ public class Player : MonoBehaviour
     public Collider2D coll;
 
     [Header("Values")]
-    public float energyRecover;
+    public FloatVariable energyRecover;
     public float moveSpeed;
     public float dashSpeed;
-    public float dashCost;
+    public FloatVariable dashCost;
     public float invunerableTime;
 
     public int Health;
@@ -41,11 +41,19 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         LeanTouch.OnFingerSwipe += Dash;
+        LeanTouch.OnFingerTap += Shot;
     }
 
     private void OnDisable()
     {
         LeanTouch.OnFingerSwipe -= Dash;
+        LeanTouch.OnFingerTap -= Shot;
+    }
+
+    public void Shot(LeanFinger finger)
+    {
+        if(!gun.weapon.autoShot)
+        gun.TryShot();
     }
 
     private void Update()

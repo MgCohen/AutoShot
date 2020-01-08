@@ -7,17 +7,26 @@ public class ClockSystem
 
     public static bool Normal = true;
 
-    public static void Stop(float duration)
+    public static void Stop(float duration = 0)
     {
         Time.timeScale = 0.0f;
         Time.fixedDeltaTime = 0.02F * Time.timeScale;
         Normal = false;
+        if(duration == 0)
+        {
+            return;
+        }
         InstancedAction.DelayAction(() =>
             {
-                Time.timeScale = 1f;
-                Time.fixedDeltaTime = 0.02f * Time.timeScale;
-                Normal = true;
+                Resume();
             }, duration);
+    }
+
+    public static void Resume()
+    {
+        Time.timeScale = 1f;
+        Time.fixedDeltaTime = 0.02f * Time.timeScale;
+        Normal = true;
     }
 
     public static void ChangeScale(float scale, float duration)
@@ -27,9 +36,7 @@ public class ClockSystem
         Normal = false;
         InstancedAction.DelayAction(() =>
         {
-            Time.timeScale = 1f;
-            Time.fixedDeltaTime = 0.02f * Time.timeScale;
-            Normal = true;
+            Resume();
         }, duration);
     }
 

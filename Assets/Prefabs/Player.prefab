@@ -49,6 +49,7 @@ MonoBehaviour:
   sprite: {fileID: 435472822587244424}
   weapon: {fileID: 11400000, guid: 4c5c73426f11c20408d8014eb9b37926, type: 2}
   timer: 0
+  bulletsShotted: 0
 --- !u!1 &2922148742459245419
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,10 +394,10 @@ MonoBehaviour:
   body: {fileID: 4901842131042990199}
   energy: {fileID: 0}
   coll: {fileID: 5024878488453666091}
-  energyRecover: 25
+  energyRecover: {fileID: 11400000, guid: 3629f5415571e9243801799258acdaa0, type: 2}
   moveSpeed: 1.5
-  dashSpeed: 4
-  dashCost: 35
+  dashSpeed: 5
+  dashCost: {fileID: 11400000, guid: 9d4e83f7c9fd23e42b2f96e692f48570, type: 2}
   invunerableTime: 1
   Health: 3
   ready: 1

@@ -50,4 +50,20 @@ public class Manager : MonoBehaviour
             winPanel.SetActive(true);
         }
     }
+
+    public void Pause()
+    {
+        ClockSystem.Stop();
+    }
+
+    public void UnPause()
+    {
+        ClockSystem.Resume();
+    }
+
+    public void ChangeAttackType()
+    {
+
+    }
+
 }

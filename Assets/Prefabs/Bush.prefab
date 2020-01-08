@@ -125,8 +125,8 @@ MonoBehaviour:
   enemy: {fileID: 1768811515}
   behaviour: 0
   striked: 0
-  checkTime: 0.75
-  recoverTime: 2
+  checkTime: 0.5
+  recoverTime: 1.5
   circlingRange: 8
   NearRange: 12
   IdleRange: 5
